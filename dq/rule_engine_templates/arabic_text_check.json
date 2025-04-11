@@ -1,0 +1,19 @@
+{
+    "database": "$database",
+    "table": "$table",
+    "columns": "$columns",
+    "dimension": "validity",
+    "sub_category": "Arabic Text Check",
+    "severity": "",
+    "composite_columns": "$composite_columns",
+    "critical_attribute": "$critical_attribute",
+    "model_integrity": "$model_integrity",
+    "filter_conditions": [
+        {
+            "field": "$columns",
+            "operation": "REGEX",
+            "pattern": "^[\\u0600-\\u06FF\\u0750-\\u077F\\u08A0-\\u08FF\\u0621-\\u064A\\u066E-\\u06D3\\u06D5-\\u06FF\\s \\u060C\\u061B\\u061F\\u0640\\u064B-\\u065F\\u066A-\\u066F\\u0670\\u0671-\\u06D3\\u06D6-\\u06ED\\-().\\'/\\\\\u064B\\u064C\\u064D\\u064E\\u064F\\u0650\\u0651\\u0652\\u0670]+$",
+            "exclude_flag": 1
+        }
+    ]
+}

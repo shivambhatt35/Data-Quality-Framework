@@ -1,0 +1,19 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension": "validity",
+  "sub_category": "Nationality Check",
+  "severity": "",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity",
+  "filter_conditions": [
+    {
+      "field": "$columns",
+      "operation": "IN",
+      "value": "('DZ', 'LT', 'MM', 'BD', 'CI', 'TC', 'AZ', 'SC', 'FI', 'PM', 'UA', 'AE', 'RO', 'ZM', 'SL', 'NL', 'BW', 'BS', 'MN', 'EG', 'PS', 'AM', 'PL', 'RE', 'MK', 'GB', 'MX', 'UZ', 'TV', 'Unknown', 'EE', 'AF', 'VG', 'CN', 'UM', 'AT', 'IQ', 'RU', 'NA', 'IN', 'PK', 'CG', 'AD', 'HR', 'LI', 'SV', 'NP', 'CZ', 'LK', 'SO', 'PT', 'SY', 'GH', 'BN', 'HK', 'LR', 'TW', 'LB', 'PY', 'CL', 'LY', 'ID', 'SA', 'AU', 'CA', 'MW', 'BL', 'NE', 'YE', 'MT', 'BR', 'KZ', 'BY', 'HN', 'MD', 'GT', 'DE', 'GN', 'IO', 'AW', 'IR', 'BH', 'MO', 'ES', 'EC', 'JO', 'TN', 'VI', 'MR', 'TR', 'Other', 'VE', 'ME', 'ZA', 'CR', 'KR', 'MA', 'TZ', 'US', 'RS', 'XK', 'ET', 'MS', 'AL', 'MY', 'JM', 'CK', 'GM', 'LC', 'MQ', 'CM', 'RW', 'TG', 'PH', 'FR', 'GF', 'CH', 'MG', 'NU', 'WF', 'GR', 'TD', 'PA', 'GI', 'SD', 'AG', 'DJ', 'BA', 'SG', 'KP', 'BF', 'IT', 'CU', 'GW', 'NG', 'MV', 'SE', 'BG', 'FJ', 'GE', 'SK', 'UK', 'MH', 'FM', 'MU', 'LV', 'PE', 'MZ', 'KM', 'DM', 'QA', 'BZ', 'DO', 'TH', 'BI', 'CS', 'BJ', 'GY', 'TM', 'JP', 'ZW', 'SN', 'NZ', 'OM', 'BT', 'KN', 'HU', 'KE', 'CY', 'SI', 'ML', 'HT', 'GP', 'UG', 'IE', 'KW', 'GS', 'VU', 'GA', 'BE', 'AS', 'NI', 'KH', 'AN', 'KG', 'TT', 'NO', 'BO', 'ER', 'CO', 'IM', 'SS', 'TF', 'AR', 'CF', 'PW', 'LU', 'SZ', 'EH', 'VN', 'BQ', 'IS', 'MP', 'BB', 'SR', 'TJ', 'DK', 'CD', 'AO', 'SB', 'PF', 'IL', 'PN', 'CC', 'MC', 'GD', 'UY', 'LS', 'YU', 'PG', 'BM', 'KY', 'VC', 'CV', 'NR', 'C', 'GQ')",
+      "exclude_flag": 1
+    }
+  ]
+}

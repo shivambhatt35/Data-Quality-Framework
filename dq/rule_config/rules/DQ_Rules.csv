@@ -1,0 +1,22 @@
+rule_id,system,rule_name,dimension,sub_system,domain,rule_description,version,rule_json_path,is_active,is_template,rule_type
+DQ_001,ALL,Null Value Check,Completeness,ALL,ALL,Ensure no values are NULL or missing.,1,Files/dq/rule_engine_templates/completeness_check.json,1,1,Data Quality
+DQ_002,ALL,Numeric Value Check,Validity,ALL,ALL,Ensure values contain only numeric characters (0-9).,1,Files/dq/rule_engine_templates/integer_value_check.json,1,1,Data Quality
+DQ_003,ALL,Value Consistency Check,Consistency,ALL,ALL,Ensure all values are consistent across the dataset and adhere to defined standards.,1,Files/dq/rule_engine_templates/consistency_check.json,1,1,Data Quality
+DQ_004,ALL,Foreign Key Integrity,Integrity,ALL,ALL,Ensure foreign keys correctly reference existing records in the related tables.,1,Files/dq/rule_engine_templates/integrity_check.json,1,1,Data Quality
+DQ_005,ALL,Duplicate Value Check,Uniqueness,ALL,ALL,Ensure values are unique and distinct within the dataset.,1,Files/dq/rule_engine_templates/uniqueness_check.json,1,1,Data Quality
+DQ_006,ALL,Decimal Value Check,Validity,ALL,ALL,Ensure values contain only decimal numbers (with optional decimal places).,1,Files/dq/rule_engine_templates/decimal_value_check.json,1,1,Data Quality
+DQ_007,ALL,Emirates ID Validation,Validity,ALL,ALL,"Ensure Emirates ID contains 15 numeric characters, starting with ""784"" and pass Luhn Algorith Checks",1,Files/dq/rule_engine_templates/emirates_id_check.json,1,1,Data Quality
+DQ_008,ALL,Full Date-Time Format Check,Validity,ALL,ALL,Ensure date values are in the format yyyymmdd hh:mm:ss.SSS or yyyy-mm-dd hh:mm:ss.SSS.,1,Files/dq/rule_engine_templates/date_format_with_timestamp_check.json,1,1,Data Quality
+DQ_009,ALL,Date Format (Simple) Check,Validity,ALL,ALL,Ensure date values are in the format yyyymmdd or yyyy-mm-dd.,1,Files/dq/rule_engine_templates/date_format_check.json,1,1,Data Quality
+DQ_010,ALL,ISO Date-Time Format Check,Validity,ALL,ALL,Ensure date values follow the format yyyy-mm-ddTHH:MM:SSZ or yyyy-mm-dd HH:MM:SS.,1,Files/dq/rule_engine_templates/date_format_check_ISO_STD.json,1,1,Data Quality
+DQ_011,ALL,Alphanumeric Check,Validity,ALL,ALL,"Ensure values are alphanumeric, containing only letters and numbers.",1,Files/dq/rule_engine_templates/alpha_numeric_check.json,1,1,Data Quality
+DQ_015,ALL,English Alphabet Check,Validity,ALL,ALL,Ensure values contain only English alphabet characters (A-Z).,1,Files/dq/rule_engine_templates/english_language_check.json,1,1,Data Quality
+DQ_016,ALL,Arabic Text Check,Validity,ALL,ALL,Ensure values contain only Arabic characters.,1,Files/dq/rule_engine_templates/arabic_text_check.json,1,1,Data Quality
+DQ_014,ALL,Gender Value Validation,Validity,ALL,ALL,"Ensure values contain only ""Male"" or ""Female"".",1,Files/dq/rule_engine_templates/gender_value_check.json,1,1,Data Quality
+DQ_013,ALL,Phone Number Validation,Validity,ALL,ALL,"Ensure values contain valid phone numbers, following predefined formats.",1,Files/dq/rule_engine_templates/phone_number_check.json,1,1,Data Quality
+DQ_012,ALL,Email Address Validation,Validity,ALL,ALL,"Ensure values contain valid email addresses following standard email formats (e.g., example@domain.com).",1,Files/dq/rule_engine_templates/email_pattern_check.json,1,1,Data Quality
+DQ_017,ALL,Multiple Valide Date-Time Format Check,Validity,ALL,ALL,"Ensure date values follow the format yyyy-mm-ddTHH:MM:SSZ or yyyy-mm-dd HH:MM:SS,yyymmdd,yyyy-mm-dd",1,Files/dq/rule_engine_templates/date_format_check_consolidated_all_valid_patterns.json,1,1,Data Quality
+DQ_018,ALL,Curriculum Value Validation,Validity,ALL,ALL,Ensure values contain only Valid Curriculum.,1,Files/dq/rule_engine_templates/curriculum_check.json,1,1,Data Quality
+DQ_019,ALL,Nationality Value Validation,Validity,ALL,ALL,Ensure values contain only Valid Nationality.,1,Files/dq/rule_engine_templates/nationality_check.json,1,1,Data Quality
+DQ_020,ALL,Marital Status Value Validation,Validity,ALL,ALL,Ensure values contain only Valid Marital.,1,Files/dq/rule_engine_templates/marital_status_check.json,1,1,Data Quality
+DQ_021,ALL,Grade Value Validation,Validity,ALL,ALL,Ensure values contain only Valid Grade.,1,Files/dq/rule_engine_templates/grade_check.json,1,1,Data Quality

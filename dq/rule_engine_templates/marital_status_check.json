@@ -1,0 +1,19 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension": "validity",
+  "sub_category": "Marital Status Check",
+  "severity": "",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity",
+  "filter_conditions": [
+    {
+      "field": "$columns",
+      "operation": "IN",
+      "value": "('Single', 'Widow', 'Divorced', 'Married', 'Unknown')",
+      "exclude_flag": 1
+    }
+  ]
+}

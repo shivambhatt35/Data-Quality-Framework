@@ -1,0 +1,29 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension": "uniqueness",
+  "sub_category": "Duplicate Values",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity",
+  "aggregations": [
+    {
+      "group_by": "$columns",
+      "calculations": [
+        {
+          "column": "*",
+          "aggregation_function": "count",
+          "alias": "duplicate_count"
+        }
+      ]
+    }
+  ],
+  "having": [
+    {
+      "field": "duplicate_count",
+      "operation": ">",
+      "value": 1
+    }
+  ]
+}

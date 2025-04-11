@@ -1,0 +1,12 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dob_column": "$dob_column",
+  "dimension":"relevance",
+  "sub_category":"EmiratesID Format Mismatch",
+  "severity": "",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity"
+}

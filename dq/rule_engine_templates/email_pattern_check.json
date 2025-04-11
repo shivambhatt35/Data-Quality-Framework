@@ -1,0 +1,19 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension":"validity",
+  "sub_category":"Email ID Check",
+  "severity": "",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity",
+  "filter_conditions": [
+    {
+      "field": "$columns",
+      "operation": "REGEX",
+      "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$",
+      "exclude_flag": 1
+    }
+  ]
+}

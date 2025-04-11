@@ -1,0 +1,20 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension": "validity",
+  "sub_category": "Date Format Mismatch",
+  "severity": "",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity",
+  "filter_conditions": [
+    {
+      "field": "$columns",
+      "operation": "REGEX",
+      "pattern": "^(18[0-9]{2}|19[0-9]{2}|20[0-9]{2}|current_year)[-]*(0[1-9]|1[0-2])[-]*((0[1-9]|[12][0-9])|(3[01]))$",
+      "dynamic_pattern": true,
+      "exclude_flag": 1
+    }
+  ]
+}

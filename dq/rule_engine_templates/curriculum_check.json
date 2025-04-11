@@ -1,0 +1,19 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension": "validity",
+  "sub_category": "Curriculum Check",
+  "severity": "",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity",
+  "filter_conditions": [
+    {
+      "field": "$columns",
+      "operation": "IN",
+      "value": "('MOE', 'American', 'Early Childhood Education', 'Singaporean', 'SABIS', 'Continuous Education', 'Unknown', 'British', 'Canadian', 'Pakistani', 'French', 'Spanish', 'Philippine', 'Swiss', 'International Baccalaureate', 'Indian', 'Military', 'Japanese', 'ACTVET', 'Bangladeshi', 'Iranian', 'Finnish', 'Reggio Emilia', 'Special', 'German', 'Others', 'Australian', 'AWQAF', 'Russian', 'UAE After school', 'ATHS', 'VEDC', 'Home Schooling', 'Al Hosn', 'STS', 'Italian', 'Chinese')",
+      "exclude_flag": 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension": "validity",
+  "sub_category": "Grade Check",
+  "severity": "",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity",
+  "filter_conditions": [
+    {
+      "field": "$columns",
+      "operation": "IN",
+      "value": "('Grade 1', 'Grade 2', 'Grade 3', 'Grade 4', 'Grade 5', 'Grade 6', 'Grade 7', 'Grade 8', 'Grade 9', 'Grade 10', 'Grade 11', 'Grade 12', 'Grade 13', 'Nursery', 'Unknown', 'KG1', 'KG2', 'UAE After school', 'AWQAF', 'KG1-G4', 'KG1-G6', 'FS1-Y6', 'Pre-primary - G9', 'Pre Primary-G6', 'Pre primary-G12', 'Y1-Y11', 'FS1-Y8', 'KG2-G12', 'G10-G12', 'Pre Primary-Y6', 'Pre Primary-G9', 'Y1-Y13', 'Pre-primary-G7', 'FS1-Y7', 'Pre Primary-KG2', 'KG1-G13', 'FS1-Y10', 'KG1-G11', 'Pre Primary-G10', 'FS1-Y9', 'Pre Primary-12', 'Pre-primary-G9', 'Pre-primary-G10', 'KG1-G9', 'G1-G12', 'FS1-Y13', 'Pre-primary-G8', 'Pre-primary-G11', 'G9-G12', 'Pre Primary-G5', 'FS1-Y11', 'KG1-G10', 'Pre Primary - G12', 'Pre-primary-G4', 'G1-G9', 'Pre Primary-Y13', 'Pre-Primary-KG2', 'Y7-Y13', 'FS1-Y6', 'G8-G12', 'G5-G12', 'G1-G8', 'KG1-G12', 'Pre Primary -G5', 'KG1-G8', 'KG1-KG2', 'ACTVET', 'Continuous Education', 'Others')",
+      "exclude_flag": 1
+    }
+  ]
+}

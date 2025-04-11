@@ -1,0 +1,16 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension":"validity",
+  "sub_category": "Number Check",
+  "severity": "Major",
+  "composite_columns": "$composite_columns",
+  "filter_conditions": [
+   {
+     "field": "$columns",
+     "operation": "REGEX",
+     "pattern": "^-?\\d+$",
+     "exclude_flag": 1
+   }]
+}

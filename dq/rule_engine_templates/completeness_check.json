@@ -1,0 +1,11 @@
+{
+  "database":"$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension":"completeness",
+  "sub_category": "Missing Values",
+  "Severity":"Major",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity"
+}

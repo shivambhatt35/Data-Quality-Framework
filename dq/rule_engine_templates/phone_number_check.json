@@ -1,0 +1,19 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension":"relevance",
+  "sub_category":"Phone Number Check",
+  "severity": "",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity",
+  "filter_conditions": [
+    {
+      "field": "$columns",
+      "operation": "REGEX",
+      "pattern": "^(?:(?:\\\\+)?971|00971|0)?[\\\\s-]*(?:50|51|52|55|56|58|57|2|3|4|6|7|9|54)[\\\\s-]*\\\\d{3}[\\\\s-]*\\\\d{4}$",
+      "exclude_flag": 1
+    }
+  ]
+}

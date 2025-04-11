@@ -1,0 +1,20 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension": "integrity",
+  "sub_category": "Inconsistent Values With Foreign Tables",
+  "severity": "",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity",
+  "reference_conditions": [
+    {
+      "reference_table": {
+        "reference_database": "$reference_database",
+        "reference_table_name": "$reference_table_name"
+      },
+      "reference_columns": "$reference_columns"
+    }
+  ]
+}

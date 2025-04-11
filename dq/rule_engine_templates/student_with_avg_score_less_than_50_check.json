@@ -1,0 +1,16 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "join_conditions": {
+	"join_table_databases": "$join_table_databases",
+	"join_tables": "$join_tables",
+	"join_select_cols": "$join_select_cols",
+	"join_filters": "$join_filters",
+	"join_group_cols": "$join_group_cols",
+	"join_having_cols": "$join_having_cols",
+	"join_types": "$join_types",
+	"join_on_columns": "$join_on_columns"
+  },
+  "filter_conditions":[{"field": "$columns","operation": ">","value": "95"}]
+}

@@ -1,0 +1,18 @@
+{
+  "database": "$database",
+  "table": "$table",
+  "columns": "$columns",
+  "dimension":"validity",
+  "sub_category":"Alpha Numeric Check",
+  "composite_columns": "$composite_columns",
+  "critical_attribute": "$critical_attribute",
+  "model_integrity": "$model_integrity",
+  "filter_conditions": [
+    {
+      "field": "$columns",
+      "operation": "REGEX",
+      "pattern": "^[a-zA-Z0-9_\\-\\/]+$",
+      "exclude_flag": 1
+    }
+  ]
+}
