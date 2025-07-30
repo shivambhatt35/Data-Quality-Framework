@@ -29,7 +29,7 @@ With a **highly configurable design** and **intuitive rule templates**, the DQ E
 
 ## 🔑 Key Features
 
-| Feature No. | Description |
+| Feature  | Description |
 |-------------|-------------|
 | **Modular Architecture:** | Plug-and-play modules for validation, rule execution, logging, and reporting. |
 | **Rule-Based Validation Engine:** | Easily define and manage rules for various quality dimensions. |
