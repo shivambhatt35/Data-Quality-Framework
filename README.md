@@ -11,17 +11,17 @@ The **Data Quality (DQ) Engine** is a powerful and scalable framework developed 
 
 🛠️ Designed with both developers and non-technical users in mind, the engine supports a broad spectrum of **rule-based validations**, including:
 
-✅ Completeness Checks – Ensure no missing values in critical fields.
-🔤 Pattern Matching – Validate formats (e.g., email, phone, ID) using regex.
-🔗 Reference Data Validation – Verify that data matches approved lookup/reference lists.
-📊 Data Profiling – Summarize data distributions and detect anomalies.
-🔁 Uniqueness Checks – Ensure no duplicate values exist in key columns (e.g., primary keys).
-📅 Timeliness Validation – Check if data arrives within expected time windows.
-🔢 Range Checks – Ensure numerical values fall within specified min/max limits.
-🧪 Null Checks – Flag missing or NULL entries in mandatory fields.
-🆚 Consistency Checks – Compare fields for logical consistency (e.g., start_date < end_date).
-🔐 Data Type Validation – Ensure values conform to expected data types (e.g., integer, string, date).
-🧩 Business Rule Validation – Apply complex logic (e.g., “If Country = 'US', then ZipCode must be 5 digits”).
+✅ Completeness Checks – Ensure no missing values in critical fields.<br>
+🔤 Pattern Matching – Validate formats (e.g., email, phone, ID) using regex.<br>
+🔗 Reference Data Validation – Verify that data matches approved lookup/reference lists.<br>
+📊 Data Profiling – Summarize data distributions and detect anomalies.<br>
+🔁 Uniqueness Checks – Ensure no duplicate values exist in key columns (e.g., primary keys).<br>
+📅 Timeliness Validation – Check if data arrives within expected time windows.<br>
+🔢 Range Checks – Ensure numerical values fall within specified min/max limits.<br>
+🧪 Null Checks – Flag missing or NULL entries in mandatory fields.<br>
+🆚 Consistency Checks – Compare fields for logical consistency (e.g., start_date < end_date).<br>
+🔐 Data Type Validation – Ensure values conform to expected data types (e.g., integer, string, date).<br>
+🧩 Business Rule Validation – Apply complex logic (e.g., “If Country = 'US', then ZipCode must be 5 digits”).<br>
 
 With a **highly configurable design** and **intuitive rule templates**, the DQ Engine simplifies complex business-specific checks and automates the generation of **detailed data quality reports**, offering **actionable insights** to maintain enterprise-level data health.
 
