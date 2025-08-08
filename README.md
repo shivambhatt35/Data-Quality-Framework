@@ -1,4 +1,4 @@
-# 🧠 Data Quality Engine 🔍✨  
+# 🔍 Data Quality Engine
 A **modular**, **high-performance** data quality engine built with **PySpark** — enabling rule-based validations, seamless integration, and automated reporting for enterprise-grade data integrity.
 
 ---
