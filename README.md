@@ -108,8 +108,6 @@ The engine supports a comprehensive set of validations:
 ## Future Enhancements
 
 - **Real-Time Data Validation:** Stream processing for near real-time quality checks.  
-- **Machine Learning Integration:** Detect anomalies and patterns automatically using ML.  
-- **Dashboarding:** Interactive dashboards for monitoring DQ metrics and trends.  
-- **Expanded Rule Library:** Additional pre-built validations for common enterprise scenarios.  
+- **Machine Learning Integration:** Detect anomalies and patterns automatically using ML.   
 
 ---
